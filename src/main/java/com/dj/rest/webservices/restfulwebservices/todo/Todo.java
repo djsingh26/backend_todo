@@ -5,6 +5,11 @@ import java.util.Date;
 public class Todo {
 	private long id;
 	private String username;
+	private String description;
+	private Date targetDate;
+	private boolean isDone;
+	
+	
 	@Override
 	public int hashCode() {
 		final int prime = 31;
@@ -47,10 +52,11 @@ public class Todo {
 			return false;
 		return true;
 	}
+	
+	protected Todo() {
+		
+	}
 
-	private String description;
-	private Date targetDate;
-	private boolean isDone;
 
 	public Todo(long id, String username, String description, Date targetDate, boolean isDone) {
 		super();
