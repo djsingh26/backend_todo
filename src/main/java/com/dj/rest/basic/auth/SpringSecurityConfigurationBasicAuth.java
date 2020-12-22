@@ -1,4 +1,4 @@
-package com.dj.rest.webservices.restfulwebservices.basic.auth;
+/*package com.dj.rest.basic.auth;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;
@@ -25,4 +25,4 @@ public class SpringSecurityConfigurationBasicAuth extends WebSecurityConfigurerA
 			.httpBasic();
 	}
 
-}
+}*/
